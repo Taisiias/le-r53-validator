@@ -32,7 +32,5 @@
         "interface-name": [ false ],
         "max-classes-per-file": [ false ],
         "no-namespace": false
-
-        //  "completed-docs": [true, "classes", "functions", "methods"],
    }
 }

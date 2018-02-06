@@ -9,10 +9,6 @@ import * as winston from "winston";
 import { Mail } from "winston-mail";
 import * as yargs from "yargs";
 
-interface Args {
-    config: string;
-}
-
 interface Config {
     logLevel: string;
     awsCredentialsFile: string;
@@ -56,32 +52,41 @@ function guard<T>(fun: () => T, onErr: (e: Error) => void): T {
     }
 }
 
-function loadArgs(): Args {
-    return yargs
+function loadArgs(): string {
+
+    const args = yargs
         .usage("Usage: $0 [options]")
-        .help("h")
-        .alias("h", "help")
-        .option("c", {
-            alias: "config",
+        .options("config", {
+            alias: "c",
             default: "./config.json",
-            describe: "configuration file",
+            describe: "Read setting from specified config file path",
             type: "string",
         })
+        .locale("en")
+        .version()
+        .help("help")
+        .strict()
         .argv;
+
+    return args.config as string;
 }
 
-function loadConfig(args: Args): Config {
-    const filename: string = args.config;
+function loadConfig(filename: string): Config {
     const json = JSON.parse(fs.readFileSync(filename).toString());
     return mergeConfigDefaults(json);
 }
 
 function mergeConfigDefaults(json: Partial<Config>): Config {
+
     function requireField<T, K extends keyof T>(obj: Partial<T>, key: K): T[K] {
         const val = obj[key];
-        if (!val) { throw new Error(`Missing ${key} in configuration file.`); }
-        return val;
+        if (val === undefined) {
+            throw new Error(`Missing ${key} in configuration file.`);
+        } else {
+            return val as T[K];
+        }
     }
+
     return {
         awsCredentialsFile: json.awsCredentialsFile || "./credentials",
         awsHostedZoneId: requireField(json, "awsHostedZoneId"),
@@ -96,7 +101,7 @@ function mergeConfigDefaults(json: Partial<Config>): Config {
     };
 }
 
-function initLogging(config: Config): Promise<undefined> {
+function initLogging(config: Config): Promise<void> {
     winston.configure({
         level: config.logLevel,
         transports: [
