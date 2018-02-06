@@ -5,7 +5,7 @@ import * as greenlock from "greenlock";
 import * as dnsChallenge from "le-challenge-dns";
 import * as certbotStore from "le-store-certbot";
 import { debug, error, info } from "winston";
-import * as winston from "winston";
+import winston = require("winston");
 import { Mail } from "winston-mail";
 import * as yargs from "yargs";
 
@@ -162,9 +162,19 @@ function initLetsencryptConnection(config: Config, r53: AWS.Route53): greenlock.
     });
 }
 
-function makeChallegeSetter(r53: AWS.Route53, zoneId: string, digest: { value: string }):
-    (args: greenlock.Args, domain: string, challenge: string,
-        keyAuthorization: string, cb: () => void) => void {
+type ChallengeSetter = (
+    args: greenlock.Args,
+    domain: string,
+    challenge: string,
+    keyAuthorization: string,
+    cb: () => void,
+) => void;
+
+function makeChallegeSetter(
+    r53: AWS.Route53,
+    zoneId: string,
+    digest: { value: string },
+): ChallengeSetter {
     return (_args, domain, _challenge, keyAuthorization, cb) => {
         const domainName = "_acme-challenge." + domain;
         digest.value = createHash("sha256").update(keyAuthorization).digest("base64")
