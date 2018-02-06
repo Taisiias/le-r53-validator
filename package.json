@@ -1,5 +1,5 @@
 {
-  "name": "autole",
+  "name": "le-r53-validator",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,7 @@
     "live": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/index.ts",
     "start": "tsc && node ./build/src/index.js"
   },
-  "author": "Sergey Mitskevich",
+  "author": "Taisiia Sobchenko",
   "license": "MIT",
   "dependencies": {
     "@types/node": "^9.4.0",
