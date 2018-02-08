@@ -13,7 +13,7 @@
   "author": "Taisiia Sobchenko",
   "license": "MIT",
   "dependencies": {
-    "@types/node": "^9.4.1",
+    "@types/node": "^9.4.3",
     "@types/winston": "^2.2.0",
     "@types/yargs": "^10.0.1",
     "aws-sdk": "^2.190.0",
