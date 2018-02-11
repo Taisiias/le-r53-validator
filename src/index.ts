@@ -101,7 +101,7 @@ function mergeConfigDefaults(json: Partial<Config>): Config {
     };
 }
 
-function initLogging(config: Config): Promise<void> {
+async function initLogging(config: Config): Promise<void> {
     winston.configure({
         level: config.logLevel,
         transports: [
@@ -121,10 +121,17 @@ function initLogging(config: Config): Promise<void> {
             to: config.reportsToEmail,
         });
         info(`Initialized email reporting to ${config.reportsToEmail}`);
-        return new Promise<undefined>((resolve) => setTimeout(() => resolve(), 100));
+        await timeout(100);
+        return;
     } else {
-        return Promise.resolve();
+        return;
     }
+}
+
+async function timeout(ms: number): Promise<void> {
+    return new Promise<void>((resolve) => {
+        setTimeout(resolve, ms);
+    });
 }
 
 function initRoute53Client(config: Config): AWS.Route53 {
