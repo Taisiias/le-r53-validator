@@ -14,9 +14,9 @@
   "license": "MIT",
   "dependencies": {
     "@types/node": "^9.4.5",
-    "@types/winston": "^2.2.0",
+    "@types/winston": "^2.3.8",
     "@types/yargs": "^10.0.1",
-    "aws-sdk": "^2.192.0",
+    "aws-sdk": "^2.193.0",
     "greenlock": "^2.1.12",
     "le-challenge-dns": "^2.1.0",
     "le-store-certbot": "^2.0.3",

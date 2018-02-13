@@ -18,9 +18,9 @@
   version "0.0.30"
   resolved "https://registry.yarnpkg.com/@types/strip-json-comments/-/strip-json-comments-0.0.30.tgz#9aa30c04db212a9a0649d6ae6fd50accc40748a1"
 
-"@types/winston@^2.2.0":
-  version "2.3.7"
-  resolved "https://registry.yarnpkg.com/@types/winston/-/winston-2.3.7.tgz#2ea18b2dc772d459b6af0f587447704df31afec2"
+"@types/winston@^2.3.8":
+  version "2.3.8"
+  resolved "https://registry.yarnpkg.com/@types/winston/-/winston-2.3.8.tgz#88964f45ecb5ed1feb4bfb38a24316bee8bf8768"
   dependencies:
     "@types/node" "*"
 
@@ -160,9 +160,9 @@ atob@^2.0.0:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.0.3.tgz#19c7a760473774468f20b2d2d03372ad7d4cbf5d"
 
-aws-sdk@^2.192.0:
-  version "2.192.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.192.0.tgz#4170d9086bd1f07e7517cc47bad37d12676ec52a"
+aws-sdk@^2.193.0:
+  version "2.193.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.193.0.tgz#89ac3bde1ff6c914c52f7f0c28a2febf23edfaa5"
   dependencies:
     buffer "4.9.1"
     events "^1.1.1"
