@@ -25,7 +25,7 @@ interface Config {
 function run(): void {
     const args = loadArgs();
     const config = guard(() => loadConfig(args), (err) => error("Can't load config:", err));
-    guard(() => initLogging(config), (err) => error("Can't initalize logging:", err))
+    guard(() => initLogging(config), (err) => error("Can't initialize logging:", err))
         .then(() => {
             info("Config loaded.");
             info("Initializing Route53 connection.");
