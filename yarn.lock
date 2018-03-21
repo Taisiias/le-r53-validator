@@ -152,9 +152,9 @@ atob@^2.0.0:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.0.3.tgz#19c7a760473774468f20b2d2d03372ad7d4cbf5d"
 
-aws-sdk@^2.211.1:
-  version "2.211.1"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.211.1.tgz#07f0a778741639c505e7c29b977894637ddca4ac"
+aws-sdk@^2.212.1:
+  version "2.212.1"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.212.1.tgz#833dbe8d837d46058a3772ac9bb73b69113136e4"
   dependencies:
     buffer "4.9.1"
     events "1.1.1"
@@ -849,9 +849,9 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.2:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
 
-greenlock@^2.1.12:
-  version "2.1.18"
-  resolved "https://registry.yarnpkg.com/greenlock/-/greenlock-2.1.18.tgz#c0251cf4d26afa8e2608744f3bbea45960960bc8"
+greenlock@^2.1.19:
+  version "2.1.19"
+  resolved "https://registry.yarnpkg.com/greenlock/-/greenlock-2.1.19.tgz#d4a397cf6455406cb6a689885aada1579ba2731f"
   dependencies:
     asn1js "^1.2.12"
     bluebird "^3.0.6"
