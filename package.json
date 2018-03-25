@@ -13,10 +13,10 @@
   "author": "Taisiia Sobchenko",
   "license": "MIT",
   "dependencies": {
-    "@types/node": "^9.4.7",
+    "@types/node": "^9.6.0",
     "@types/winston": "^2.3.8",
     "@types/yargs": "^11.0.0",
-    "aws-sdk": "^2.212.1",
+    "aws-sdk": "^2.213.1",
     "greenlock": "^2.1.19",
     "le-challenge-dns": "^2.1.0",
     "le-store-certbot": "^2.0.3",
