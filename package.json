@@ -19,7 +19,7 @@
     "aws-sdk": "^2.268.1",
     "greenlock": "^2.3.5",
     "le-challenge-dns": "^2.3.2",
-    "le-store-certbot": "^2.1.7",
+    "le-store-certbot": "^2.1.8",
     "nodemon": "^1.17.5",
     "ts-node": "^7.0.0",
     "tslint": "^5.10.0",
