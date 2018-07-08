@@ -893,9 +893,9 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.2:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
 
-greenlock@^2.3.5:
-  version "2.3.5"
-  resolved "https://registry.yarnpkg.com/greenlock/-/greenlock-2.3.5.tgz#aa7e26c2cf733a3b3d7d55db9f5058bd23bcc738"
+greenlock@^2.3.6:
+  version "2.3.6"
+  resolved "https://registry.yarnpkg.com/greenlock/-/greenlock-2.3.6.tgz#935de77bc51749d81e7d05453141cb7a081a4362"
   dependencies:
     acme "^1.0.6"
     acme-v2 "^1.1.1"

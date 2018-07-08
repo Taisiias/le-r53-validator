@@ -17,7 +17,7 @@
     "@types/winston": "^2.3.9",
     "@types/yargs": "^11.0.0",
     "aws-sdk": "^2.270.1",
-    "greenlock": "^2.3.5",
+    "greenlock": "^2.3.6",
     "le-challenge-dns": "^2.3.2",
     "le-store-certbot": "^2.1.8",
     "nodemon": "^1.17.5",
