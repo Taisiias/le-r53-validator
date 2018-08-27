@@ -6,9 +6,9 @@
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/@coolaj86/urequest/-/urequest-1.1.4.tgz#f0e542d09b50341b3ac31e4b8a94e0955ee1b483"
 
-"@types/node@^10.7.1":
-  version "10.7.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.7.1.tgz#b704d7c259aa40ee052eec678758a68d07132a2e"
+"@types/node@^10.9.2":
+  version "10.9.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.9.2.tgz#f0ab8dced5cd6c56b26765e1c0d9e4fdcc9f2a00"
 
 "@types/winston@^2.4.4":
   version "2.4.4"
@@ -171,9 +171,9 @@ atob@^2.0.0:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.0.3.tgz#19c7a760473774468f20b2d2d03372ad7d4cbf5d"
 
-aws-sdk@^2.299.0:
-  version "2.299.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.299.0.tgz#9c12f924f1e28d22899816e112dcb722c4bccf30"
+aws-sdk@^2.302.0:
+  version "2.302.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.302.0.tgz#f659c441b43db4e95e68e9392865e23507a788d2"
   dependencies:
     buffer "4.9.1"
     events "1.1.1"
@@ -887,9 +887,9 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.2:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
 
-greenlock@^2.4.1:
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/greenlock/-/greenlock-2.4.1.tgz#8575f22d51d4165084ec80b1b4dd896dfc7b2b1f"
+greenlock@^2.4.2:
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/greenlock/-/greenlock-2.4.2.tgz#3b92e20baa2f51b30a96600091626a87cb8e8d33"
   dependencies:
     acme "^1.0.6"
     acme-v2 "^1.2.0"
