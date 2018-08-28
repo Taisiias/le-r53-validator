@@ -6,9 +6,9 @@
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/@coolaj86/urequest/-/urequest-1.1.4.tgz#f0e542d09b50341b3ac31e4b8a94e0955ee1b483"
 
-"@types/node@^10.9.2":
-  version "10.9.2"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.9.2.tgz#f0ab8dced5cd6c56b26765e1c0d9e4fdcc9f2a00"
+"@types/node@^10.9.3":
+  version "10.9.3"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.9.3.tgz#85f288502503ade0b3bfc049fe1777b05d0327d5"
 
 "@types/winston@^2.4.4":
   version "2.4.4"
@@ -171,9 +171,9 @@ atob@^2.0.0:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.0.3.tgz#19c7a760473774468f20b2d2d03372ad7d4cbf5d"
 
-aws-sdk@^2.302.0:
-  version "2.302.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.302.0.tgz#f659c441b43db4e95e68e9392865e23507a788d2"
+aws-sdk@^2.304.0:
+  version "2.304.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.304.0.tgz#080bd9604ff5c18bc38d67904dbd484ebf3e11f7"
   dependencies:
     buffer "4.9.1"
     events "1.1.1"
