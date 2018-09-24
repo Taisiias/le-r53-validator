@@ -6,9 +6,9 @@
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/@coolaj86/urequest/-/urequest-1.1.4.tgz#f0e542d09b50341b3ac31e4b8a94e0955ee1b483"
 
-"@types/node@^10.9.4":
-  version "10.9.4"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.9.4.tgz#0f4cb2dc7c1de6096055357f70179043c33e9897"
+"@types/node@^8.9.1":
+  version "8.10.30"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.10.30.tgz#2c82cbed5f79d72280c131d2acffa88fbd8dd353"
 
 "@types/winston@^2.4.4":
   version "2.4.4"
