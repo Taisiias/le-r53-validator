@@ -148,9 +148,9 @@ atob@^2.0.0:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.0.3.tgz#19c7a760473774468f20b2d2d03372ad7d4cbf5d"
 
-aws-sdk@^2.366.0:
-  version "2.366.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.366.0.tgz#3f2ead3b4efa4537286c6fa14995418ed9d65cbe"
+aws-sdk@^2.368.0:
+  version "2.368.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.368.0.tgz#5855201dca9740f253e468f7ce8caa03e5eb696b"
   dependencies:
     buffer "4.9.1"
     events "1.1.1"
@@ -2109,9 +2109,9 @@ tsutils@^2.27.2:
   dependencies:
     tslib "^1.8.1"
 
-typescript@^3.1.6:
-  version "3.1.6"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.1.6.tgz#b6543a83cfc8c2befb3f4c8fba6896f5b0c9be68"
+typescript@^3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.2.1.tgz#0b7a04b8cf3868188de914d9568bd030f0c56192"
 
 undefsafe@^2.0.2:
   version "2.0.2"
