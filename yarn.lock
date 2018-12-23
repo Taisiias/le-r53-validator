@@ -31,6 +31,13 @@ acme-v2@^1.3.1:
     "@coolaj86/urequest" "^1.3.6"
     rsa-compat "^1.9.2"
 
+acme-v2@^1.5.0:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/acme-v2/-/acme-v2-1.5.1.tgz#6adcbb6724fc400c0a3ba08010e9d5cd68ee47a5"
+  dependencies:
+    "@coolaj86/urequest" "^1.3.6"
+    rsa-compat "^1.9.2"
+
 acme@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/acme/-/acme-1.2.0.tgz#26d3edb40969eba1cd5b9dbe698899dbcacc80d4"
@@ -797,12 +804,12 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.2:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
 
-greenlock@^2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/greenlock/-/greenlock-2.5.0.tgz#209a599a1e54a0ad1944f53bcb65a26cf26f8607"
+greenlock@^2.6.7:
+  version "2.6.7"
+  resolved "https://registry.yarnpkg.com/greenlock/-/greenlock-2.6.7.tgz#c7c6f8d057e34987a7f24591c43e4631f565d9e6"
   dependencies:
     acme "^1.2.0"
-    acme-v2 "^1.3.1"
+    acme-v2 "^1.5.0"
     cert-info "^1.5.0"
     le-challenge-fs "^2.0.2"
     le-sni-auto "^2.1.3"
