@@ -15,7 +15,7 @@
   "dependencies": {
     "@types/node": "^8.9.1",
     "@types/winston": "^2.4.4",
-    "@types/yargs": "^12.0.4",
+    "@types/yargs": "^12.0.5",
     "aws-sdk": "^2.384.0",
     "greenlock": "^2.6.7",
     "le-challenge-dns": "^2.3.2",

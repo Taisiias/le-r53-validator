@@ -16,9 +16,9 @@
   dependencies:
     winston "*"
 
-"@types/yargs@^12.0.4":
-  version "12.0.4"
-  resolved "https://registry.yarnpkg.com/@types/yargs/-/yargs-12.0.4.tgz#14a37542f01a1ed4d743d5f8bc3f40e63e5835d4"
+"@types/yargs@^12.0.5":
+  version "12.0.5"
+  resolved "https://registry.yarnpkg.com/@types/yargs/-/yargs-12.0.5.tgz#f4f85fe198e1e9cedc0bb53a8c2d30fb34299e50"
 
 abbrev@1:
   version "1.1.1"
