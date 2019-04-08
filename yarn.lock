@@ -16,10 +16,17 @@
   dependencies:
     winston "*"
 
-"@types/yargs@^12.0.10":
-  version "12.0.10"
-  resolved "https://registry.yarnpkg.com/@types/yargs/-/yargs-12.0.10.tgz#17a8ec65cd8e88f51b418ceb271af18d3137df67"
-  integrity sha512-WsVzTPshvCSbHThUduGGxbmnwcpkgSctHGHTqzWyFg4lYAuV5qXlyFPOsP3OWqCINfmg/8VXP+zJaa4OxEsBQQ==
+"@types/yargs-parser@*":
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/@types/yargs-parser/-/yargs-parser-13.0.0.tgz#453743c5bbf9f1bed61d959baab5b06be029b2d0"
+  integrity sha512-wBlsw+8n21e6eTd4yVv8YD/E3xq0O6nNnJIquutAsFGE7EyMKz7W6RNT6BRu1SmdgmlCZ9tb0X+j+D6HGr8pZw==
+
+"@types/yargs@^13.0.0":
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/@types/yargs/-/yargs-13.0.0.tgz#d2acb3bec0047d8f648ebacdab6b928a900c42c4"
+  integrity sha512-hY0o+kcz9M6kH32NUeb6VURghqMuCVkiUx+8Btsqhj4Hhov/hVGUx9DmBJeIkzlp1uAQK4wngQBCjqWdUUkFyA==
+  dependencies:
+    "@types/yargs-parser" "*"
 
 abbrev@1:
   version "1.1.1"
@@ -149,10 +156,10 @@ atob@^2.0.0:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.0.3.tgz#19c7a760473774468f20b2d2d03372ad7d4cbf5d"
 
-aws-sdk@^2.431.0:
-  version "2.432.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.432.0.tgz#8cc677d683355df6d11bbc4ec16784a2267fd710"
-  integrity sha512-1Ly0chGU8K+r/8zM5iBiCC5MHOc4h/xReTv1VlRpemL5Fq2ndY6R5/uEEJ8ioqyd2UNban/w6LKwtOB1NF9IWg==
+aws-sdk@^2.437.0:
+  version "2.437.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.437.0.tgz#94e41a2ff112aa020ddbe4950dd5f73187889b8b"
+  integrity sha512-sDZb5QBOO6FOMvuKDEdO16YQRk0WUhnQd38EaSt0yUCi4Gev8uypODyYONgODZcXe8Cr1GMwC8scUKr00S/I5w==
   dependencies:
     buffer "4.9.1"
     events "1.1.1"
@@ -2275,10 +2282,10 @@ tsutils@^2.29.0:
   dependencies:
     tslib "^1.8.1"
 
-typescript@^3.3.4000:
-  version "3.3.4000"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.3.4000.tgz#76b0f89cfdbf97827e1112d64f283f1151d6adf0"
-  integrity sha512-jjOcCZvpkl2+z7JFn0yBOoLQyLoIkNZAs/fYJkUG6VKy6zLPHJGfQJYFHzibB6GJaF/8QrcECtlQ5cpvRHSMEA==
+typescript@^3.4.2:
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.4.2.tgz#9ed4e6475d906f589200193be056f5913caed481"
+  integrity sha512-Og2Vn6Mk7JAuWA1hQdDQN/Ekm/SchX80VzLhjKN9ETYrIepBFAd8PkOdOTK2nKt0FCkmMZKBJvQ1dV1gIxPu/A==
 
 undefsafe@^2.0.2:
   version "2.0.2"
