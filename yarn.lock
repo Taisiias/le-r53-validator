@@ -1214,9 +1214,10 @@ lcid@^2.0.0:
   dependencies:
     invert-kv "^2.0.0"
 
-le-challenge-dns@^2.3.2:
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/le-challenge-dns/-/le-challenge-dns-2.3.2.tgz#dd39529c047911fa0e8cab207adf6e275f98ac34"
+le-challenge-dns@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/le-challenge-dns/-/le-challenge-dns-3.0.3.tgz#ef1c8dfb666a8a8bc9a24b69b89eab3862ca8da2"
+  integrity sha512-6jz9YMpWhTXJKK+Id/S0j8R3oEiH6ya5WBTPzc7GsNR21voesejP7UJaDcdH9GQrjf7gBX3xyr4BlL/GplNBOw==
 
 le-challenge-fs@^2.0.2:
   version "2.0.8"
@@ -1228,14 +1229,6 @@ le-sni-auto@^2.1.8:
   version "2.1.8"
   resolved "https://registry.yarnpkg.com/le-sni-auto/-/le-sni-auto-2.1.8.tgz#ede84993620242adb7c20c41e28f68798ad8e610"
   integrity sha512-aEUP+DB5mfHi4kHY37nJdtVr+DIF5vxiXKdiZBPOLNgF7pK3iD0wJU6fiwDRtZRz2KOahX+VBxlgTN2r24nKhw==
-
-le-store-certbot@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/le-store-certbot/-/le-store-certbot-2.2.1.tgz#ee67d89991978855ca7cc8afa1812d2110abdc58"
-  dependencies:
-    mkdirp "^0.5.1"
-    pyconf "^1.1.5"
-    safe-replace "^1.0.3"
 
 le-store-certbot@^2.2.2:
   version "2.2.2"
