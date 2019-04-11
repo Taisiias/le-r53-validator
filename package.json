@@ -20,10 +20,10 @@
     "greenlock": "^2.7.17",
     "le-challenge-dns": "^3.0.3",
     "le-store-certbot": "^2.2.2",
-    "nodemon": "^1.18.10",
+    "nodemon": "^1.18.11",
     "ts-node": "^8.0.3",
     "tslint": "^5.14.0",
-    "typescript": "^3.4.2",
+    "typescript": "^3.4.3",
     "winston": "^3.2.1",
     "winston-mail": "^1.5.2",
     "yargs": "^13.2.2"
