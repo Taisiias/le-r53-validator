@@ -106,20 +106,21 @@ async function initLogging(config: Config): Promise<void> {
         level: config.logLevel,
         transports: [
             new winston.transports.Console({
-                colorize: true,
+                // colorize: true,
                 debugStdout: true,
-                prettyPrint: true,
+                // prettyPrint: true,
             }),
         ],
     });
     if (config.reportsToEmail) {
-        winston.add(Mail, {
-            host: config.smtpHost,
-            level: "error",
-            port: config.smtpPort,
-            subject: "LE cert update {{level}}: {{msg}}",
-            to: config.reportsToEmail,
-        });
+        winston.add(Mail, // {
+            // host: config.smtpHost,
+            // level: "error",
+            // port: config.smtpPort,
+            // subject: "LE cert update {{level}}: {{msg}}",
+            // to: config.reportsToEmail,
+        // }
+        );
         info(`Initialized email reporting to ${config.reportsToEmail}`);
         await timeout(100);
         return;
