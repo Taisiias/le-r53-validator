@@ -21,9 +21,9 @@
     "le-challenge-dns": "^3.0.7",
     "le-store-certbot": "^2.2.3",
     "nodemon": "^1.19.1",
-    "ts-node": "^8.1.0",
+    "ts-node": "^8.2.0",
     "tslint": "^5.16.0",
-    "typescript": "^3.4.5",
+    "typescript": "^3.5.1",
     "winston": "^3.2.1",
     "winston-mail": "^1.5.2",
     "yargs": "^13.2.4"
