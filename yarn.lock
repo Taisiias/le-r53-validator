@@ -27,6 +27,11 @@
   resolved "https://registry.yarnpkg.com/@root/mkdirp/-/mkdirp-1.0.0.tgz#f200e29568d711d3357151af0d2648e7eaf21b6f"
   integrity sha512-hxGAYUx5029VggfG+U9naAhQkoMSXtOeXtbql97m3Hi6/sQSRL/4khKZPyOF6w11glyCOU38WCNLu9nUcSjOfA==
 
+"@root/request@^1.3.11":
+  version "1.3.11"
+  resolved "https://registry.yarnpkg.com/@root/request/-/request-1.3.11.tgz#b72df33c2a759443466939712be74fd8c5b9e554"
+  integrity sha512-3a4Eeghcjsfe6zh7EJ+ni1l8OK9Fz2wL1OjP4UCa0YdvtH39kdXB9RGWuzyNv7dZi0+Ffkc83KfH0WbPMiuJFw==
+
 "@types/node@^8.9.1":
   version "8.10.30"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-8.10.30.tgz#2c82cbed5f79d72280c131d2acffa88fbd8dd353"
@@ -58,13 +63,21 @@ acme-dns-01-cli@^3.0.0:
   resolved "https://registry.yarnpkg.com/acme-dns-01-cli/-/acme-dns-01-cli-3.0.7.tgz#cd5d0e3d455eba88db3a9e8e955aa8f8e48ebbc5"
   integrity sha512-Aa4bUpq6ftX1VODiShOetOY5U0tsXY5EV7+fQwme3Q8Y9rjYBArBXHgFCAVKtK1AF+Ev8pIuF6Z42hzMFa73/w==
 
-acme-v2@^1.6.0, acme-v2@^1.7.7:
+acme-v2@^1.6.0:
   version "1.7.7"
   resolved "https://registry.yarnpkg.com/acme-v2/-/acme-v2-1.7.7.tgz#1189c2d887769eff05b0373a830855d6ae03f644"
   integrity sha512-Pg0EQ45h8N2e4K2goYedutCgWxAmtcruwDHr6hgPBgAWEORVb5SQEdXjtEhCrn+APtr7MyFPryyzXpYpDD5ecA==
   dependencies:
     "@coolaj86/urequest" "^1.3.6"
     rsa-compat "^2.0.6"
+
+acme-v2@^1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/acme-v2/-/acme-v2-1.8.1.tgz#76fd34002646684cafda2bde1ed7f95a9c17b3ee"
+  integrity sha512-1nTyycCnsjTZogQ9JQ1nld9r7nY3G9WguKPXV+YdTEvEl0Q8kUcwkzkohsbRHpaUcSqU+OP7t7qLVSp2aWriPQ==
+  dependencies:
+    "@root/request" "^1.3.11"
+    rsa-compat "^2.0.8"
 
 acme@^1.3.0:
   version "1.3.0"
@@ -181,10 +194,10 @@ atob@^2.0.0:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.0.3.tgz#19c7a760473774468f20b2d2d03372ad7d4cbf5d"
 
-aws-sdk@^2.473.0:
-  version "2.473.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.473.0.tgz#2dd7e661471f21bdab399e93e606ee97e57e6960"
-  integrity sha512-1Qr16lOcz4ANzl/oPQRR+fxchfvUx4PVQhUNnDU3FH9OBfU3Xj+Vh6bGYFbreFQgqIqXUTEuJR5pC44uK70YfA==
+aws-sdk@^2.475.0:
+  version "2.475.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.475.0.tgz#69f0f9c97e591fad98a31a4b40dd15bde000cf1e"
+  integrity sha512-C8vRCYOrDxqlpx/HQUvIJteLwTllOQrGZBfGM6DuFBNmMJvkzoJi3MWKj1e+yWXkGzNmbOgpzyVLcKrXyntnTw==
   dependencies:
     buffer "4.9.1"
     events "1.1.1"
@@ -885,14 +898,14 @@ greenlock-store-fs@^3.0.2:
     "@root/mkdirp" "^1.0.0"
     safe-replace "^1.1.0"
 
-greenlock@^2.7.24:
-  version "2.7.24"
-  resolved "https://registry.yarnpkg.com/greenlock/-/greenlock-2.7.24.tgz#a1cc607009e5a558dc14050af65675d5089c6850"
-  integrity sha512-GQb2LMF6IiEzhp01F6eIN7HlPVlUWpWsBZZn7DOIo9upFAWhFpn2w1PStjGb17VmTkg+lgxzcajqcy6AJhCHUQ==
+greenlock@^2.8.0:
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/greenlock/-/greenlock-2.8.0.tgz#b78110c29dbd052eadc1dc16694f42a2d2796ef5"
+  integrity sha512-CyBwVzU/HTK0zAxvwWUH3YFKPQKSsqWaq8h9LI+YyBGpSwDPKDBb1npShKtfviDhP9cw21+D6wgJ3MCbxRXgYA==
   dependencies:
     acme "^1.3.0"
     acme-dns-01-cli "^3.0.0"
-    acme-v2 "^1.7.7"
+    acme-v2 "^1.8.1"
     cert-info "^1.5.1"
     greenlock-store-fs "^3.0.2"
     keypairs "^1.2.14"
@@ -2287,10 +2300,10 @@ tsutils@^2.29.0:
   dependencies:
     tslib "^1.8.1"
 
-typescript@^3.5.1:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.5.1.tgz#ba72a6a600b2158139c5dd8850f700e231464202"
-  integrity sha512-64HkdiRv1yYZsSe4xC1WVgamNigVYjlssIoaH2HcZF0+ijsk5YK2g0G34w9wJkze8+5ow4STd22AynfO6ZYYLw==
+typescript@^3.5.2:
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.5.2.tgz#a09e1dc69bc9551cadf17dba10ee42cf55e5d56c"
+  integrity sha512-7KxJovlYhTX5RaRbUdkAXN1KUZ8PwWlTzQdHV6xNqvuFOs7+WBo10TQUqT19Q/Jz2hk5v9TQDIhyLhhJY4p5AA==
 
 undefsafe@^2.0.2:
   version "2.0.2"
