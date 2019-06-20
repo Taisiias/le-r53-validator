@@ -22,7 +22,7 @@
     "le-store-certbot": "^2.2.3",
     "nodemon": "^1.19.1",
     "ts-node": "^8.3.0",
-    "tslint": "^5.17.0",
+    "tslint": "^5.18.0",
     "typescript": "^3.5.2",
     "winston": "^3.2.1",
     "winston-mail": "^1.5.2",
