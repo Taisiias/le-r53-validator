@@ -25,7 +25,7 @@
     "tslint": "^5.18.0",
     "typescript": "^3.5.2",
     "winston": "^3.2.1",
-    "winston-mail": "^1.5.2",
+    "winston-mail": "^2.0.0",
     "yargs": "^13.2.4"
   }
 }
