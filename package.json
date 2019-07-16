@@ -26,6 +26,6 @@
     "typescript": "^3.5.3",
     "winston": "^3.2.1",
     "winston-mail": "^2.0.0",
-    "yargs": "^13.2.4"
+    "yargs": "^13.3.0"
   }
 }
