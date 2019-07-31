@@ -47,10 +47,10 @@
   resolved "https://registry.yarnpkg.com/@types/yargs-parser/-/yargs-parser-13.0.0.tgz#453743c5bbf9f1bed61d959baab5b06be029b2d0"
   integrity sha512-wBlsw+8n21e6eTd4yVv8YD/E3xq0O6nNnJIquutAsFGE7EyMKz7W6RNT6BRu1SmdgmlCZ9tb0X+j+D6HGr8pZw==
 
-"@types/yargs@^13.0.0":
-  version "13.0.0"
-  resolved "https://registry.yarnpkg.com/@types/yargs/-/yargs-13.0.0.tgz#d2acb3bec0047d8f648ebacdab6b928a900c42c4"
-  integrity sha512-hY0o+kcz9M6kH32NUeb6VURghqMuCVkiUx+8Btsqhj4Hhov/hVGUx9DmBJeIkzlp1uAQK4wngQBCjqWdUUkFyA==
+"@types/yargs@^13.0.1":
+  version "13.0.1"
+  resolved "https://registry.yarnpkg.com/@types/yargs/-/yargs-13.0.1.tgz#a45b3c9faadd7adfdb40646d14a7f6b70f4e8233"
+  integrity sha512-7X+FaCpRQ1scFQnWUY0TnVuuNaP5ajN45IGmwHVkAbsH1g4txz4hNb6sjJeR/wLaqUdNoInOwLk7oRL5M4zVFA==
   dependencies:
     "@types/yargs-parser" "*"
 
@@ -190,10 +190,10 @@ atob@^2.0.0:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.0.3.tgz#19c7a760473774468f20b2d2d03372ad7d4cbf5d"
 
-aws-sdk@^2.501.0:
-  version "2.501.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.501.0.tgz#611d900fae284bfe8175fe9ee3d101e01a877f06"
-  integrity sha512-eFihkJEsDia9LPfVh8AVc7KXiL6KARRTdop/P3bwVv+sAxi2cfeX231WNeeBLCGBnITL1MmyndkG8gaCg6UgbQ==
+aws-sdk@^2.503.0:
+  version "2.503.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.503.0.tgz#983b8c03aa919060a81127cb9d94fbb1667f4cf2"
+  integrity sha512-DPwRxhPYCGNvKL9rUhpAoOVpMRyISbVMlXykLQknYo7wyOI+jYcyA7t8H7IFPAqj4ZG+R+Au9tO/KT4im+2gbg==
   dependencies:
     buffer "4.9.1"
     events "1.1.1"
