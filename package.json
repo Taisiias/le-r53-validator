@@ -20,7 +20,7 @@
     "greenlock": "^2.8.7",
     "le-challenge-dns": "^3.0.7",
     "le-store-certbot": "^2.2.3",
-    "nodemon": "^1.19.3",
+    "nodemon": "^1.19.4",
     "ts-node": "^8.4.1",
     "tslint": "^5.20.0",
     "typescript": "^3.6.4",
