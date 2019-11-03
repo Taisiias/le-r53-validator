@@ -50,6 +50,22 @@
   resolved "https://registry.yarnpkg.com/@root/encoding/-/encoding-1.0.1.tgz#60cf3ccb9e2239226b30e8394c7a4a258a161c3e"
   integrity sha512-OaEub02ufoU038gy6bsNHQOjIn8nUjGiLcaRmJ40IUykneJkIW5fxDqKxQx48cszuNflYldsJLPPXCrGfHs8yQ==
 
+"@root/greenlock@^3.0.27":
+  version "3.0.27"
+  resolved "https://registry.yarnpkg.com/@root/greenlock/-/greenlock-3.0.27.tgz#d6f8622623fe825c157594d514a6d00c6ba21309"
+  integrity sha512-M8qVeGa6WkL+6MK5zm1XRhP9n1fwuUlea/LS8PH3DWxf99s+77nIiK3AFPjFYNrRzKyPsWHICRLKLdK7o+F7gA==
+  dependencies:
+    "@root/acme" "^3.0.8"
+    "@root/csr" "^0.8.1"
+    "@root/keypairs" "^0.9.0"
+    "@root/mkdirp" "^1.0.0"
+    "@root/request" "^1.3.10"
+    acme-http-01-standalone "^3.0.5"
+    cert-info "^1.5.1"
+    greenlock-manager-fs "^3.0.3"
+    greenlock-store-fs "^3.2.0"
+    safe-replace "^1.1.0"
+
 "@root/keypairs@^0.9.0":
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/@root/keypairs/-/keypairs-0.9.0.tgz#0340a8a9cd865a9adc3ad5dd1f98221a7cb310df"
@@ -874,10 +890,10 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.2:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
 
-greenlock-manager-fs@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/greenlock-manager-fs/-/greenlock-manager-fs-3.0.1.tgz#33b6aed973a546086110213a71313bea2740be45"
-  integrity sha512-vZfGFq1TTKxaAqdGDUwNservrNzXx0xCwT/ovG/N378GrhS+U5S8B8LUlNtQU7Fdw6RToMiBcm22OOxSrvZ2zw==
+greenlock-manager-fs@^3.0.3:
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/greenlock-manager-fs/-/greenlock-manager-fs-3.0.5.tgz#84a5133c0d509ddc57ceed2c5aecbc635efc89fe"
+  integrity sha512-r/q+tEFuDwklfzPfiGhcIrHuJxMrppC+EseESpu5f0DMokh+1iZVm9nGC/VE7/7GETdOYfEYhhQkmspsi8Gr/A==
   dependencies:
     "@root/mkdirp" "^1.0.0"
     safe-replace "^1.1.0"
@@ -890,19 +906,20 @@ greenlock-store-fs@^3.2.0:
     "@root/mkdirp" "^1.0.0"
     safe-replace "^1.1.0"
 
-greenlock@^3.0.19:
-  version "3.0.19"
-  resolved "https://registry.yarnpkg.com/greenlock/-/greenlock-3.0.19.tgz#736f92ff008241cfe10b38adc266715bdd09e202"
-  integrity sha512-iO/X7ohvv/EE2pLLxqmbtejJ0odlIG0WnxnJblIsl3C5V3Wo7WR1BnsFDANOpSBtWzD2hZ6VmXurMUyl9slexA==
+greenlock@^3.0.27:
+  version "3.0.27"
+  resolved "https://registry.yarnpkg.com/greenlock/-/greenlock-3.0.27.tgz#4446469bb863024722fc38100da78797d8b9410a"
+  integrity sha512-LLhe/vZaFZiWvnk2i3C/TvBx9tdr4UEfNwv8lazGfW8/e4TivUYu3lpVUYk0ub23tq6nqPnkAXWHxvM2WFmA6w==
   dependencies:
     "@root/acme" "^3.0.8"
     "@root/csr" "^0.8.1"
+    "@root/greenlock" "^3.0.27"
     "@root/keypairs" "^0.9.0"
     "@root/mkdirp" "^1.0.0"
     "@root/request" "^1.3.10"
     acme-http-01-standalone "^3.0.5"
     cert-info "^1.5.1"
-    greenlock-manager-fs "^3.0.1"
+    greenlock-manager-fs "^3.0.3"
     greenlock-store-fs "^3.2.0"
     safe-replace "^1.1.0"
 
