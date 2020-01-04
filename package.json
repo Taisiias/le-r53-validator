@@ -15,7 +15,7 @@
   "dependencies": {
     "@types/node": "^8.9.1",
     "@types/winston": "^2.4.4",
-    "@types/yargs": "^13.0.3",
+    "@types/yargs": "^13.0.4",
     "greenlock": "^3.1.5",
     "le-challenge-dns": "^3.0.7",
     "le-store-certbot": "^2.2.3",
@@ -25,6 +25,6 @@
     "typescript": "^3.7.4",
     "winston": "^3.2.1",
     "winston-mail": "^2.0.0",
-    "yargs": "^15.0.2"
+    "yargs": "^15.1.0"
   }
 }
