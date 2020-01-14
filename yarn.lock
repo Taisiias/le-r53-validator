@@ -25,10 +25,10 @@
   dependencies:
     greenlock-manager-fs "^3.1.0"
 
-"@root/acme@^3.0.8":
-  version "3.0.8"
-  resolved "https://registry.yarnpkg.com/@root/acme/-/acme-3.0.8.tgz#7ab1501b7e9e7aa25c59f4833862fd078d8f39c4"
-  integrity sha512-VmBvLvWdCDkolkanI9Dzm1ouSWPaAa2eCCwcDZcVQbWoNiUIOqbbd57fcMA/gZxLyuJPStD2WXFuEuSMPDxcww==
+"@root/acme@^3.0.9":
+  version "3.0.9"
+  resolved "https://registry.yarnpkg.com/@root/acme/-/acme-3.0.9.tgz#437f4b46015e70587fb50119807889c944370388"
+  integrity sha512-/FgJF6RUrkqNpLmxqjktHaWMsLOwma6D+e4EBoxKtTjTAI+dBqW8Z8cH38feUsiIBR5LimPeYmBo/oqU3oMkKQ==
   dependencies:
     "@root/encoding" "^1.0.1"
     "@root/keypairs" "^0.9.0"
@@ -57,13 +57,13 @@
   resolved "https://registry.yarnpkg.com/@root/encoding/-/encoding-1.0.1.tgz#60cf3ccb9e2239226b30e8394c7a4a258a161c3e"
   integrity sha512-OaEub02ufoU038gy6bsNHQOjIn8nUjGiLcaRmJ40IUykneJkIW5fxDqKxQx48cszuNflYldsJLPPXCrGfHs8yQ==
 
-"@root/greenlock@^4.0.2":
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/@root/greenlock/-/greenlock-4.0.2.tgz#550c72dbe9056a62c4487143ecc9907d1a5596a3"
-  integrity sha512-vurGBFlullzHM3STzQq00jWGCwvCYhpzusZZU69/80o4GPHB9OnUuxe/JlcokRZcCq+HqiVUeUJIBzPG086VWA==
+"@root/greenlock@^4.0.4":
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/@root/greenlock/-/greenlock-4.0.4.tgz#1fd04d5de541004a289d49f8304ed012cf9e59c2"
+  integrity sha512-eSBuAs9LLn11I3oQECB7C61M8SrFSgXLaUGyWW87ctWybrV8wFAzc5QZTebOf97ymFX0gCebiWEO2iBtmLH59g==
   dependencies:
     "@greenlock/manager" "^3.1.0"
-    "@root/acme" "^3.0.8"
+    "@root/acme" "^3.0.9"
     "@root/csr" "^0.8.1"
     "@root/keypairs" "^0.9.0"
     "@root/mkdirp" "^1.0.0"
@@ -659,15 +659,15 @@ greenlock-store-fs@^3.2.2:
     "@root/mkdirp" "^1.0.0"
     safe-replace "^1.1.0"
 
-greenlock@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/greenlock/-/greenlock-4.0.2.tgz#ee1988e9ca2f3512e533df8a815134afc49e84e4"
-  integrity sha512-1ZjqKYsyhTKRk3NkAMfrWo3ifUlvDSYRcOHOjIBC+aEW4F9oSLie0jXkpA7HY4QIiAZ/IPdnq5VXelD8magPTQ==
+greenlock@^4.0.4:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/greenlock/-/greenlock-4.0.4.tgz#d8280acf92b270c72a07fb87f6a5a00379bca99a"
+  integrity sha512-f96lHXk0DIZCyem4IpMea/ME4LnWUHHSJr79r6UxF//gBRFy9toSq7ndiSO9hL1A2WDZSv+j28kFcbf+/az9Ew==
   dependencies:
     "@greenlock/manager" "^3.1.0"
-    "@root/acme" "^3.0.8"
+    "@root/acme" "^3.0.9"
     "@root/csr" "^0.8.1"
-    "@root/greenlock" "^4.0.2"
+    "@root/greenlock" "^4.0.4"
     "@root/keypairs" "^0.9.0"
     "@root/mkdirp" "^1.0.0"
     "@root/request" "^1.4.2"
