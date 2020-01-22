@@ -15,7 +15,7 @@
   "dependencies": {
     "@types/node": "^8.9.1",
     "@types/winston": "^2.4.4",
-    "@types/yargs": "^15.0.0",
+    "@types/yargs": "^15.0.1",
     "greenlock": "^4.0.4",
     "le-challenge-dns": "^3.0.7",
     "le-store-certbot": "^2.2.3",
